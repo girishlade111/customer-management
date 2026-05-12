@@ -15,19 +15,19 @@ export default function Page() {
           <CardContent>
             <div className="grid grid-cols-2 gap-x-8 gap-y-2 text-sm">
               <div className="flex justify-between">
-                <span className="text-gray-600">性別</span>
-                <span>男性</span>
+                <span className="text-gray-600">Gender</span>
+                <span>Male</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-600">生年月日</span>
+                <span className="text-gray-600">Date of Birth</span>
                 <span>539.7.20</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-600">顧客番号</span>
+                <span className="text-gray-600">Customer ID</span>
                 <span>6490101</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-600">顧客状況</span>
+                <span className="text-gray-600">Customer Status</span>
                 <span>50200021</span>
               </div>
               <div className="flex justify-between col-span-2">

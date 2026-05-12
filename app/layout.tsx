@@ -5,9 +5,82 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  metadataBase: new URL('https://vercel.com/gileb64375-5584s-projects/v0-customer-management'),
+  title: {
+    default: 'Customer Management System | 顧客管理システム',
+    template: '%s | 顧客管理システム',
+  },
+  description: 'Comprehensive customer management system for managing customer data, contracts, and interactions. Built with Next.js, React, and Tailwind CSS.',
+  keywords: [
+    'customer management',
+    '顧客管理',
+    'customer relationship management',
+    'CRM',
+    'customer data',
+    '契約管理',
+    '取引履歴',
+    'customer information',
+    '客户信息管理',
+  ],
+  authors: [
+    {
+      name: 'Customer Management Team',
+      url: 'https://vercel.com/gileb64375-5584s-projects/v0-customer-management',
+    },
+  ],
+  creator: 'Customer Management System',
+  publisher: 'Vercel',
   generator: 'v0.app',
+  applicationName: 'Customer Management System',
+  referrer: 'origin-when-cross-origin',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'ja_JP',
+    alternateLocale: 'en_US',
+    url: 'https://vercel.com/gileb64375-5584s-projects/v0-customer-management',
+    siteName: 'Customer Management System',
+    title: 'Customer Management System | 顧客管理システム',
+    description: 'Comprehensive customer management system for managing customer data, contracts, and interactions.',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Customer Management System - 顧客管理システム',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Customer Management System | 顧客管理システム',
+    description: 'Comprehensive customer management system for managing customer data, contracts, and interactions.',
+    creator: '@customer_management',
+    images: ['/og-image.png'],
+  },
+  alternates: {
+    canonical: 'https://vercel.com/gileb64375-5584s-projects/v0-customer-management',
+    languages: {
+      ja: 'https://vercel.com/gileb64375-5584s-projects/v0-customer-management',
+      en: 'https://vercel.com/gileb64375-5584s-projects/v0-customer-management',
+    },
+  },
+  category: 'business',
+  classification: 'Customer Management',
+  other: {
+    'google-site-verification': 'verification-code',
+    'theme-color': '#A31D1D',
+  },
 }
 
 export default function RootLayout({

@@ -7,20 +7,19 @@ import './globals.css'
 export const metadata: Metadata = {
   metadataBase: new URL('https://vercel.com/gileb64375-5584s-projects/v0-customer-management'),
   title: {
-    default: 'Customer Management System | 顧客管理システム',
-    template: '%s | 顧客管理システム',
+    default: 'Customer Management System',
+    template: '%s | Customer Management System',
   },
   description: 'Comprehensive customer management system for managing customer data, contracts, and interactions. Built with Next.js, React, and Tailwind CSS.',
   keywords: [
     'customer management',
-    '顧客管理',
+    'customer management',
     'customer relationship management',
     'CRM',
     'customer data',
-    '契約管理',
-    '取引履歴',
+    'contract management',
+    'transaction history',
     'customer information',
-    '客户信息管理',
   ],
   authors: [
     {

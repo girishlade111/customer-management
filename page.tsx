@@ -58,9 +58,9 @@ export default function Page() {
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="2021-12">2021年12月</SelectItem>
-                    <SelectItem value="2022-01">2022年1月</SelectItem>
-                    <SelectItem value="2022-02">2022年2月</SelectItem>
+                    <SelectItem value="2021-12">December 2021</SelectItem>
+                    <SelectItem value="2022-01">January 2022</SelectItem>
+                    <SelectItem value="2022-02">February 2022</SelectItem>
                   </SelectContent>
                 </Select>
                 <span>～</span>
@@ -69,18 +69,18 @@ export default function Page() {
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="2022-01">2022年1月</SelectItem>
-                    <SelectItem value="2022-02">2022年2月</SelectItem>
-                    <SelectItem value="2022-03">2022年3月</SelectItem>
+                    <SelectItem value="2022-01">January 2022</SelectItem>
+                    <SelectItem value="2022-02">February 2022</SelectItem>
+                    <SelectItem value="2022-03">March 2022</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
 
               <div className="border rounded-lg">
                 <div className="grid grid-cols-[auto_1fr_auto] items-center gap-4 p-3 hover:bg-gray-50">
-                  <span className="px-2 py-1 text-xs bg-gray-200 rounded">既読</span>
+                  <span className="px-2 py-1 text-xs bg-gray-200 rounded">Read</span>
                   <div>
-                    <div className="text-sm font-medium">明日の件その他相談【報告等】</div>
+                    <div className="text-sm font-medium">Tomorrow's matter and other consultation [Report]</div>
                     <div className="text-xs text-gray-500">2022-02-18 14:09:54</div>
                   </div>
                   <Button variant="ghost" size="icon" className="h-8 w-8">
@@ -88,9 +88,9 @@ export default function Page() {
                   </Button>
                 </div>
                 <div className="grid grid-cols-[auto_1fr_auto] items-center gap-4 p-3 hover:bg-gray-50 border-t">
-                  <span className="px-2 py-1 text-xs bg-gray-200 rounded">既読</span>
+                  <span className="px-2 py-1 text-xs bg-gray-200 rounded">Read</span>
                   <div>
-                    <div className="text-sm font-medium">本店送りました。よろしくです。【報告等】</div>
+                    <div className="text-sm font-medium">Sent to head store. Thank you. [Report]</div>
                     <div className="text-xs text-gray-500">2022-02-18 12:47:08</div>
                   </div>
                   <Button variant="ghost" size="icon" className="h-8 w-8">
@@ -98,9 +98,9 @@ export default function Page() {
                   </Button>
                 </div>
                 <div className="grid grid-cols-[auto_1fr_auto] items-center gap-4 p-3 hover:bg-gray-50 border-t">
-                  <span className="px-2 py-1 text-xs bg-gray-200 rounded">既読</span>
+                  <span className="px-2 py-1 text-xs bg-gray-200 rounded">Read</span>
                   <div>
-                    <div className="text-sm font-medium">明日の件その相談【訪問】</div>
+                    <div className="text-sm font-medium">Tomorrow's matter consultation [Visit]</div>
                     <div className="text-xs text-gray-500">2022-02-18 11:27:54</div>
                   </div>
                   <Button variant="ghost" size="icon" className="h-8 w-8">

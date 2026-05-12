@@ -45,8 +45,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    locale: 'ja_JP',
-    alternateLocale: 'en_US',
+    locale: 'en_US',
+    alternateLocale: 'ja_JP',
     url: 'https://vercel.com/gileb64375-5584s-projects/v0-customer-management',
     siteName: 'Customer Management System',
     title: 'Customer Management System',

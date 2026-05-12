@@ -10,7 +10,7 @@ export default function Page() {
       <div className="grid gap-6">
         <Card>
           <CardHeader className="pb-2">
-            <CardTitle className="text-base font-medium">顧客データ</CardTitle>
+            <CardTitle className="text-base font-medium">Customer Data</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="grid grid-cols-2 gap-x-8 gap-y-2 text-sm">

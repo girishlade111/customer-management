@@ -10,36 +10,36 @@ export default function Page() {
       <div className="grid gap-6">
         <Card>
           <CardHeader className="pb-2">
-            <CardTitle className="text-base font-medium">Customer Data</CardTitle>
+            <CardTitle className="text-base font-medium">顧客データ</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="grid grid-cols-2 gap-x-8 gap-y-2 text-sm">
               <div className="flex justify-between">
-                <span className="text-gray-600">Gender</span>
-                <span>Male</span>
+                <span className="text-gray-600">性別</span>
+                <span>男性</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-600">Date of Birth</span>
+                <span className="text-gray-600">生年月日</span>
                 <span>539.7.20</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-600">Customer ID</span>
+                <span className="text-gray-600">顧客番号</span>
                 <span>6490101</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-600">Customer Status</span>
+                <span className="text-gray-600">顧客状況</span>
                 <span>50200021</span>
               </div>
               <div className="flex justify-between col-span-2">
-                <span className="text-gray-600">Address</span>
-                <span>Singapore 1111-111 🏳️</span>
+                <span className="text-gray-600">住所</span>
+                <span>シンカポレシンガポ1111-111 🏳️</span>
               </div>
               <div className="flex justify-between col-span-2">
-                <span className="text-gray-600">Name</span>
-                <span>Shinjuku Store / Singapore Hanako</span>
+                <span className="text-gray-600">氏名</span>
+                <span>新宿店／シンガ花子</span>
               </div>
               <div className="flex justify-between col-span-2">
-                <span className="text-gray-600">Phone Number</span>
+                <span className="text-gray-600">電話番号</span>
                 <span>090-4641-0517／090-1111-5555</span>
               </div>
             </div>
@@ -48,7 +48,7 @@ export default function Page() {
 
         <Card>
           <CardHeader className="pb-3">
-            <CardTitle className="text-base font-medium">Contract Transaction List</CardTitle>
+            <CardTitle className="text-base font-medium">契約取引一覧表</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="space-y-4">
@@ -58,9 +58,9 @@ export default function Page() {
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="2021-12">December 2021</SelectItem>
-                    <SelectItem value="2022-01">January 2022</SelectItem>
-                    <SelectItem value="2022-02">February 2022</SelectItem>
+                    <SelectItem value="2021-12">2021年12月</SelectItem>
+                    <SelectItem value="2022-01">2022年1月</SelectItem>
+                    <SelectItem value="2022-02">2022年2月</SelectItem>
                   </SelectContent>
                 </Select>
                 <span>～</span>
@@ -69,18 +69,18 @@ export default function Page() {
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="2022-01">January 2022</SelectItem>
-                    <SelectItem value="2022-02">February 2022</SelectItem>
-                    <SelectItem value="2022-03">March 2022</SelectItem>
+                    <SelectItem value="2022-01">2022年1月</SelectItem>
+                    <SelectItem value="2022-02">2022年2月</SelectItem>
+                    <SelectItem value="2022-03">2022年3月</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
 
               <div className="border rounded-lg">
                 <div className="grid grid-cols-[auto_1fr_auto] items-center gap-4 p-3 hover:bg-gray-50">
-                  <span className="px-2 py-1 text-xs bg-gray-200 rounded">Read</span>
+                  <span className="px-2 py-1 text-xs bg-gray-200 rounded">既読</span>
                   <div>
-                    <div className="text-sm font-medium">Tomorrow's matter and other consultation [Report]</div>
+                    <div className="text-sm font-medium">明日の件その他相談【報告等】</div>
                     <div className="text-xs text-gray-500">2022-02-18 14:09:54</div>
                   </div>
                   <Button variant="ghost" size="icon" className="h-8 w-8">
@@ -88,9 +88,9 @@ export default function Page() {
                   </Button>
                 </div>
                 <div className="grid grid-cols-[auto_1fr_auto] items-center gap-4 p-3 hover:bg-gray-50 border-t">
-                  <span className="px-2 py-1 text-xs bg-gray-200 rounded">Read</span>
+                  <span className="px-2 py-1 text-xs bg-gray-200 rounded">既読</span>
                   <div>
-                    <div className="text-sm font-medium">Sent to head store. Thank you. [Report]</div>
+                    <div className="text-sm font-medium">本店送りました。よろしくです。【報告等】</div>
                     <div className="text-xs text-gray-500">2022-02-18 12:47:08</div>
                   </div>
                   <Button variant="ghost" size="icon" className="h-8 w-8">
@@ -98,9 +98,9 @@ export default function Page() {
                   </Button>
                 </div>
                 <div className="grid grid-cols-[auto_1fr_auto] items-center gap-4 p-3 hover:bg-gray-50 border-t">
-                  <span className="px-2 py-1 text-xs bg-gray-200 rounded">Read</span>
+                  <span className="px-2 py-1 text-xs bg-gray-200 rounded">既読</span>
                   <div>
-                    <div className="text-sm font-medium">Tomorrow's matter consultation [Visit]</div>
+                    <div className="text-sm font-medium">明日の件その相談【訪問】</div>
                     <div className="text-xs text-gray-500">2022-02-18 11:27:54</div>
                   </div>
                   <Button variant="ghost" size="icon" className="h-8 w-8">

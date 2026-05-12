@@ -11,16 +11,16 @@ export default function Layout({ children }: LayoutProps) {
     <div className="min-h-screen bg-background">
       <header className="sticky top-0 z-50 w-full border-b bg-[#A31D1D] h-12">
         <div className="container flex items-center h-full">
-          <div className="text-white">System Status Check - Development</div>
+          <div className="text-white">システムステータス確認 開発</div>
           <div className="ml-auto flex items-center space-x-4">
             <Link href="#" className="text-white text-sm">
-              Manual/FAQ
+              マニュアル/FAQ
             </Link>
             <Link href="#" className="text-white text-sm">
-              Notifications
+              お知らせ
             </Link>
             <Link href="#" className="text-white text-sm">
-              Logout
+              ログアウト
             </Link>
           </div>
         </div>
@@ -33,42 +33,42 @@ export default function Layout({ children }: LayoutProps) {
                 1
               </div>
               <Phone className="w-5 h-5" />
-              <span className="text-sm">Home</span>
+              <span className="text-sm">ホーム</span>
             </Link>
             <Link href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 text-gray-700">
               <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-sm">
                 2
               </div>
               <Home className="w-5 h-5" />
-              <span className="text-sm">Customer Info</span>
+              <span className="text-sm">お客様情報</span>
             </Link>
             <Link href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 text-gray-700">
               <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-sm">
                 3
               </div>
               <UserCircle className="w-5 h-5" />
-              <span className="text-sm">ID Card</span>
+              <span className="text-sm">身分証明書</span>
             </Link>
             <Link href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 text-gray-700">
               <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-sm">
                 4
               </div>
               <MessageSquare className="w-5 h-5" />
-              <span className="text-sm">Customer Rank</span>
+              <span className="text-sm">顧客ランク</span>
             </Link>
             <Link href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 text-gray-700">
               <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-sm">
                 5
               </div>
               <Settings className="w-5 h-5" />
-              <span className="text-sm">Admin</span>
+              <span className="text-sm">管理</span>
             </Link>
             <Link href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 text-gray-700">
               <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-sm">
                 6
               </div>
               <Bell className="w-5 h-5" />
-              <span className="text-sm">Alerts</span>
+              <span className="text-sm">アラート</span>
             </Link>
           </nav>
         </aside>

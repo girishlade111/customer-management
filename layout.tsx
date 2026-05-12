@@ -33,42 +33,42 @@ export default function Layout({ children }: LayoutProps) {
                 1
               </div>
               <Phone className="w-5 h-5" />
-              <span className="text-sm">ホーム</span>
+              <span className="text-sm">Home</span>
             </Link>
             <Link href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 text-gray-700">
               <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-sm">
                 2
               </div>
               <Home className="w-5 h-5" />
-              <span className="text-sm">お客様情報</span>
+              <span className="text-sm">Customer Info</span>
             </Link>
             <Link href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 text-gray-700">
               <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-sm">
                 3
               </div>
               <UserCircle className="w-5 h-5" />
-              <span className="text-sm">身分証明書</span>
+              <span className="text-sm">ID Card</span>
             </Link>
             <Link href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 text-gray-700">
               <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-sm">
                 4
               </div>
               <MessageSquare className="w-5 h-5" />
-              <span className="text-sm">顧客ランク</span>
+              <span className="text-sm">Customer Rank</span>
             </Link>
             <Link href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 text-gray-700">
               <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-sm">
                 5
               </div>
               <Settings className="w-5 h-5" />
-              <span className="text-sm">管理</span>
+              <span className="text-sm">Admin</span>
             </Link>
             <Link href="#" className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-100 text-gray-700">
               <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-sm">
                 6
               </div>
               <Bell className="w-5 h-5" />
-              <span className="text-sm">アラート</span>
+              <span className="text-sm">Alerts</span>
             </Link>
           </nav>
         </aside>

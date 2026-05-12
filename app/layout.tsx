@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     alternateLocale: 'en_US',
     url: 'https://vercel.com/gileb64375-5584s-projects/v0-customer-management',
     siteName: 'Customer Management System',
-    title: 'Customer Management System | 顧客管理システム',
+    title: 'Customer Management System',
     description: 'Comprehensive customer management system for managing customer data, contracts, and interactions.',
     images: [
       {

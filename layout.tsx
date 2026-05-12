@@ -11,16 +11,16 @@ export default function Layout({ children }: LayoutProps) {
     <div className="min-h-screen bg-background">
       <header className="sticky top-0 z-50 w-full border-b bg-[#A31D1D] h-12">
         <div className="container flex items-center h-full">
-          <div className="text-white">システムステータス確認 開発</div>
+          <div className="text-white">System Status Check - Development</div>
           <div className="ml-auto flex items-center space-x-4">
             <Link href="#" className="text-white text-sm">
-              マニュアル/FAQ
+              Manual/FAQ
             </Link>
             <Link href="#" className="text-white text-sm">
-              お知らせ
+              Notifications
             </Link>
             <Link href="#" className="text-white text-sm">
-              ログアウト
+              Logout
             </Link>
           </div>
         </div>

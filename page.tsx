@@ -31,15 +31,15 @@ export default function Page() {
                 <span>50200021</span>
               </div>
               <div className="flex justify-between col-span-2">
-                <span className="text-gray-600">住所</span>
-                <span>シンカポレシンガポ1111-111 🏳️</span>
+                <span className="text-gray-600">Address</span>
+                <span>Singapore 1111-111 🏳️</span>
               </div>
               <div className="flex justify-between col-span-2">
-                <span className="text-gray-600">氏名</span>
-                <span>新宿店／シンガ花子</span>
+                <span className="text-gray-600">Name</span>
+                <span>Shinjuku Store / Singapore Hanako</span>
               </div>
               <div className="flex justify-between col-span-2">
-                <span className="text-gray-600">電話番号</span>
+                <span className="text-gray-600">Phone Number</span>
                 <span>090-4641-0517／090-1111-5555</span>
               </div>
             </div>
@@ -48,7 +48,7 @@ export default function Page() {
 
         <Card>
           <CardHeader className="pb-3">
-            <CardTitle className="text-base font-medium">契約取引一覧表</CardTitle>
+            <CardTitle className="text-base font-medium">Contract Transaction List</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="space-y-4">

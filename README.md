@@ -328,3 +328,9 @@ This project is licensed under the **MIT License**.
 <p align="center">
   <strong>Built with ❤️ using Next.js, React, TypeScript, and Tailwind CSS</strong>
 </p>
+
+---
+
+<p align="center">
+  <strong>Built by Girish Lade</strong> — <a href="https://ladestack.in">ladestack.in</a>
+</p>
